@@ -34,6 +34,9 @@ public class PersonTest {
         result = PersonTest.isTeenager(22);
         assertFalse(result);
 
+        result = PersonTest.isTeenager(25);
+        assertFalse(result);
+
     }
 
     @Test
